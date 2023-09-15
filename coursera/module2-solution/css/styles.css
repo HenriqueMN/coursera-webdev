@@ -2,7 +2,7 @@
 
 * {
 	box-sizing: border-box;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif; /* Default font for the document */
 }
 
 body {
@@ -25,11 +25,6 @@ section > div {
 	width: 100%;
 }
 
-/* section,
-h2 {
-	border: 1px solid #000000;
-} */
-
 h2 {
 	border: 1px solid #000000;
 	float: right;
@@ -41,20 +36,12 @@ h2 {
 }
 
 section {
-	padding: 10px;
-	/* margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto; */
+	padding: 10px; /* Used for the spacing between the boxes */
 }
-
-/* #section2 {
-	margin-bottom: 30px;
-	margin-left: 15px;
-} */
 
 p {
 	clear: right;
-	width: 95%;
+	width: 95%; /* To fit inside the box */
 	margin: 1px 1px 0px 15px;
 	overflow: auto;
 }

@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	border: none;
+	background-color: #1b1b1e;
+	color: #98083d;
+}
+body {
+	background-color: #faa916;
+	color: #fbfffe;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.glyphicon {
+	font-size: 25px;
+	color: #1b1b1e;
+	position: relative;
+}
+
+.center {
+	width: 90%;
+	background-color: #6d676e;
+}
+.container {
+	background-color: #6d676e;
+}
+.text-center {
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: #1b1b1e;
+	font-size: 17px;
+	text-align: center;
+	background-color: #96031a;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+#navbarTitle {
+	color: #fbfffe;
+}
